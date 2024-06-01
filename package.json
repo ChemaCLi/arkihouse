@@ -1,0 +1,35 @@
+{
+  "name": "arkihouse",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": "21.7.1"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "prettier --write  \"**/*.{js,jsx,ts,tsx,md,mdx,astro}\" && eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\""
+  },
+  "dependencies": {
+    "@astrojs/check": "0.7.0",
+    "@astrojs/react": "3.4.0",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "astro": "4.9.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "typescript": "5.4.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^7.11.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-astro": "^1.2.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "prettier": "^3.2.5",
+    "prettier-config-standard": "^7.0.0",
+    "prettier-plugin-astro": "^0.14.0"
+  }
+}
